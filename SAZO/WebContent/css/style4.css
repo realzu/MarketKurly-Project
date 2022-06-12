@@ -1,0 +1,181 @@
+@charset "UTF-8";
+div{
+	margin: 0px auto;
+}
+
+div, th, td, li, dt, dd, p {
+	//word-break: break-all
+}
+
+a{
+	color : black;
+	text-decoration:none;
+}
+#itemList{
+	width: 1050px;
+}
+
+.banner{
+	margin: 0px auto;
+	height: 400px;
+}
+
+.listName{
+	font-weight: 700;
+	font-size: 28px;
+    color: #333;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;    
+}
+
+.searchName{
+	font-weight: 700;
+	font-size: 28px;
+    color: #333;
+    text-align: center;    
+    height: 30px;
+    padding: 50px 0 51px;    
+}
+
+#searchBox{
+	border-top: 2px solid #5f0080;
+    border-bottom: 1px solid #5f0080;
+	height: 90px;	
+}
+
+.box{
+	width: 607px;
+	height: 45px;
+	margin: 20px 20px 20px 65px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: -1px;
+	
+}
+
+
+.label{
+	font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    margin: 20px 30px 20px 25px;
+    letter-spacing: -1px;
+}
+
+.btn{
+    width: 175px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #5f0080;
+    color: #fff;
+}
+
+
+
+
+#itemList_info{
+	height: 37px;	
+	font-family: noto sans, malgun gothic, AppleGothic, dotum;
+	line-height: 1;
+	letter-spacing: -.05em;
+	color: #4c4c4c;
+	font-size: 12px;
+	max-width: 100%;
+	padding-left: 2px;
+}
+
+#itemList_info .leftInfo{
+	color: #333;
+	float: left;
+	height: 37px;
+	line-height: 37px;
+	
+	
+}
+
+#itemList_info .rightInfo{
+	float: right;
+	color: #999;
+
+}
+
+.rightInfo a{
+	display: inline;	
+	text-decoration-line: none;	
+	color: #999;
+}
+.rightInfo a:hover{
+	color: #333;	
+}
+
+.rightInfo_click{
+	color: #333;
+}
+
+
+li{
+	display: inline;	
+}
+
+
+#itemImg{
+	width: 1050px;
+}
+
+.img{
+	width: 338px;
+	height: 435px;	
+	border-right: 12px solid white;
+}
+
+.imgInfo{
+	width: 338px;
+	color: #333;
+	text-decoration-line: none;	
+	height: 180px;
+}
+
+.imgInfo a{
+	display: inline;	
+	text-decoration-line: none;	
+	width: 328px;
+}
+
+.block1{
+	display: block;	
+	height: 32px;
+	font-size: 20px;    
+}
+
+.block2{
+	display: block;	
+	height: 32px;
+	font-size: 18px;    
+	font-weight: 800;
+}
+
+.block3{
+	display: block;	
+	height: 30px;
+	font-size: 13px;    
+}
+
+#pgIndex a{
+	width: 1050px;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+#pgIndex{
+	width: 1050px;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+}
+
+

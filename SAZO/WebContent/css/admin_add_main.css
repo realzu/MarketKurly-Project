@@ -1,0 +1,40 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    margin:  30px auto 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+}
+table{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+td{
+    border: 1px solid #ddd;    
+
+}
+#sub{
+    width: 130px;
+    height: 30px;
+    text-align: center;
+}
+#ssub{
+    width: 384px;
+}
+input{
+    border: 0px;
+
+}
+#ok{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    left: 413px;
+}

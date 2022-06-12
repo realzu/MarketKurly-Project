@@ -1,0 +1,227 @@
+@charset "UTF-8";
+//상품상세
+html {
+	scroll-behavior: smooth;
+}
+
+div {
+	margin: 0px auto;
+	border: 0px solid;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#cart {
+	width: 1050px;
+	height: 850px;
+}
+
+.th{
+	width: 430px;
+	height: 750px;
+	float: left;
+}
+
+.thum {
+	width: 430px;
+	height: 552px;
+	float: left;
+}
+
+.items {
+
+}
+
+.items .itemname {
+	display: block;
+	padding-right: 60px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 34px;
+	word-break: break-all;
+	padding-left: 30px;
+}
+
+#cart .btnShare { 
+	display: block;
+	position: relative
+}
+
+#cart #btnShare {
+	overflow: hidden;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: 0;
+	background:
+		url(https://res.kurly.com/mobile/service/goodsview/1910/ico_view_sns.png)
+		no-repeat 50% 50%;
+	font-size: 0;
+	text-indent: -9999px;
+}
+
+.items .price {
+	height: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #4c4c4c;
+	line-height: 30px;
+	padding-left: 30px;
+}
+
+.iteminfo {
+	padding-top: 18px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.iteminfo .list.fst {
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+.iteminfo .list {
+	overflow: hidden;
+	padding: 18px 0;
+	padding-left: 30px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.iteminfo .tit {
+	float: left;
+	width: 128px;
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+}
+
+.iteminfo .desc {
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 20px;
+	word-break: break-all;
+}
+
+#mainview {
+	width: 1050px;
+}
+
+.iteminfo .list2 {
+	overflow: hidden;
+	padding: 18px 0;
+	padding-left: 30px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.iteminfo .cart {
+	float: right;
+	width: 200px;
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+}
+#mainview #tap{
+/* 	top: 0;
+	position: fixed; */
+}
+
+#totop{
+ 	right: 0;
+ 	bottom: 0;
+	position: fixed; 
+}
+
+#mainview #tap ul{
+	padding-left: 0px;
+	margin: 0px auto;
+}
+
+#mainview img {
+	width: 1050px;
+}
+
+#tap li {
+	margin: 0px;
+	display: inline-block;
+	background-color: #ffffff;
+	width: 260px;
+	text-align: center;
+	border : 1px solid;
+	height: 60px;
+	line-height: 60px;
+	float: none;
+}
+
+/* 장바구니 */
+#basketlist {
+	width: 1050px;
+	margin: 30px 0;
+}
+#bali{
+	margin: 30px;
+}
+#basketlist ul {
+	overflow: hidden;
+	padding: 18px 0;
+	padding-left: 30px;
+	border-bottom: 1px solid #c0c0c0;
+	float: left;
+}
+
+#basketlist li {
+	float: left;
+ 	
+/*	font-size: 14px;
+	color: #666;
+	line-height: 20px; */
+}
+
+#orderlist dl {
+	overflow: hidden;
+	padding: 18px 0;
+	padding-left: 30px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#orderlist dd {
+	float: left;
+ 	
+/*	font-size: 14px;
+	color: #666;
+	line-height: 20px; */
+}
+.cart_img {
+	width: 180px;
+    height: 56px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    background-color: #5f0081;
+    border: 1px solid #5f0081;
+    cursor: pointer;
+}
+
+.amount, .itemNum {
+	margin : 50px 20px;
+}
+
+.order_img{
+	margin : 10px;	
+}
+
+#basimg{
+	margin: 10px;
+}
+
+
+
+
+
+
+
